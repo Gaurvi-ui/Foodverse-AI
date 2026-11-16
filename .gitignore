@@ -1,3 +1,4 @@
+
 # Python
 __pycache__/
 *.py[cod]
@@ -7,20 +8,23 @@ venv/
 env/
 .pytest_cache/
 .mypy_cache/
+.coverage
 
-# Secrets
+# Environment variables and secrets
 .env
 .env.*
 !.env.example
 !.env.*.example
+.streamlit/secrets.toml
+secrets.toml
 
-# Node
+# Node.js
 node_modules/
 dist/
 build/
 npm-debug.log*
 
-# OS / editor
+# OS and editors
 .DS_Store
 Thumbs.db
 .vscode/
